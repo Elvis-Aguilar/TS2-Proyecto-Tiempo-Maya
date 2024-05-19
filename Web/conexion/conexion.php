@@ -1,7 +1,7 @@
 <?php
 $servername = "127.0.0.1";
 $username_DB = "root";
-$password_DB = "password";
+$password_DB = "4056ELVIS";
 $dbname = "tiempo_maya";
 
 // Create connection

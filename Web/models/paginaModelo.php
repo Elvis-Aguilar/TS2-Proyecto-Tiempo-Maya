@@ -21,7 +21,7 @@ $elementos = $conn->query("SELECT nombre FROM tiempo_maya.pagina WHERE categoria
     <?php include "../blocks/bloquesCss.html" ?>
     <link rel="stylesheet" href="../css/estilo.css?v=<?php echo (rand()); ?>" />
     <link rel="stylesheet" href="../css/paginaModelo.css?v=<?php echo (rand()); ?>" />
-
+    <link rel="stylesheet" href="../css/Infografia.css?v=<?php echo (rand()); ?>" />
 
 </head>
 <?php include "../NavBar2.php" ?>
@@ -68,7 +68,9 @@ $elementos = $conn->query("SELECT nombre FROM tiempo_maya.pagina WHERE categoria
                 }
             }
         }
-        $stringPrint .= "</div> </section> <hr>";
+        $stringPrint .= "</div>";
+        $stringPrint .= "<div class='line'></div>";
+        $stringPrint .= "</section> <hr>";
         echo $stringPrint;
     }
 
