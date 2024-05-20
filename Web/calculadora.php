@@ -27,7 +27,7 @@ $cholquij = $nahual." ". strval($energia);
     <link rel="stylesheet" href="css/estilo.css?v=<?php echo (rand()); ?>" />
     <link rel="stylesheet" href="css/calculadora.css?v=<?php echo (rand()); ?>" />
     <link rel="stylesheet" href="css/Infografia.css?v=<?php echo (rand()); ?>" />
-
+    <link rel="stylesheet" href="css/CruzMaya.css?v=<?php echo (rand()); ?>" />
 </head>
 
 <body>
@@ -81,6 +81,7 @@ $cholquij = $nahual." ". strval($energia);
     </div>
 
     <?php include "models/InfografiaModelo.php"?>
+    <?php include "models/CruzMaya.php"?>
 
     <?php include "blocks/bloquesJs1.html" ?>
 
